@@ -1,4 +1,4 @@
-package com.enjoy.forksamples;
+package com.vance.forksamples;
 
 public class NativeLib {
 

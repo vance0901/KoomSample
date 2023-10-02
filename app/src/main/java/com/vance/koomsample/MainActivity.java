@@ -1,4 +1,4 @@
-package com.enjoy.koomsample;
+package com.vance.koomsample;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,7 +9,7 @@ import android.os.Debug;
 import android.util.Log;
 import android.view.View;
 
-import com.enjoy.forksamples.NativeLib;
+import com.vance.forksamples.NativeLib;
 import com.kwai.koom.base.DefaultInitTask;
 import com.kwai.koom.base.MonitorManager;
 import com.kwai.koom.javaoom.monitor.OOMHprofUploader;
@@ -21,12 +21,12 @@ import java.io.File;
 import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
-    private static final String TAG = "Lance";
+    private static final String TAG = "vance";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(com.enjoy.koomsample.R.layout.activity_main);
+        setContentView(R.layout.activity_main);
         //初始化 MonitorManager
         OOMMonitorInitTask.INSTANCE.init(getApplication());
         // 启动 OOMMonitor

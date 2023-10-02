@@ -1,4 +1,4 @@
-package com.enjoy.koomsample;
+package com.vance.koomsample;
 
 import android.util.Log;
 
@@ -20,7 +20,7 @@ public class ThreadUtil {
             String line;
             while ((line = br.readLine()) != null) {
                 if (line.startsWith("Threads")) {
-                    Log.i("Lance", id + line);
+                    Log.i("vance", id + line);
                     break;
                 }
             }

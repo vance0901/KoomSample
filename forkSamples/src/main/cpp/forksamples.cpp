@@ -6,7 +6,7 @@
 
 extern "C"
 JNIEXPORT jint JNICALL
-Java_com_enjoy_forksamples_NativeLib_fork(JNIEnv *env, jobject thiz) {
+Java_com_vance_forksamples_NativeLib_fork(JNIEnv *env, jobject thiz) {
     int pid = fork();
     if (pid == 0) {
         // 子进程...
